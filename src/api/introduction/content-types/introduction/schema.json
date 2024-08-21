@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "introductions",
+  "info": {
+    "singularName": "introduction",
+    "pluralName": "introductions",
+    "displayName": "Salam Lurah"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
